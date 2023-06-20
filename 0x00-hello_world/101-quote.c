@@ -6,7 +6,8 @@
  */
 int main(void)
 {
-const char *content = "and that piece of art is useful - Dora Korpar, 2015-10-19\n";
-fputs(content, stdout);
+fputs("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n"
+, stdout);
 return (0);
+}
 }
