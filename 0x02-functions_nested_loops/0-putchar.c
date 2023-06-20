@@ -6,6 +6,8 @@
  */
 int main(void)
 {
-printf("\_putchat\n");
+int n = 95;
+putchar (n);
+printf("putchar\n");
 return (0);
 }
